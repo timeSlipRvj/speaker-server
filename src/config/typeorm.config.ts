@@ -8,7 +8,6 @@ export const typeOrmConfig = (): TypeOrmModuleOptions => {
         synchronize: false,
         database: process.env.PG_DATABASE,
     }
-    }
 
     // return { 
     //     type: 'postgres',
