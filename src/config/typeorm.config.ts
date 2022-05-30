@@ -5,8 +5,8 @@ export const typeOrmConfig = (): TypeOrmModuleOptions => {
     return {
         type: 'sqlite',
         entities: [__dirname + '/../**/*.entity.{js,ts}'],
-        synchronize: false,
-        database: process.env.PG_DATABASE,
+        synchronize: True,
+        database: speaker,
     }
 
     // return { 
